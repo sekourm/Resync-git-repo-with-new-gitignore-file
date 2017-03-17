@@ -1,22 +1,21 @@
-# Resync-git-repo-with-new-gitignore-file
+-- Resync git repo with new gitignore file --
 
-
-<pre>
 # rm all files
+<pre>
 git rm -r --cached .
 </pre>
 
-<pre>
 # add all files as per new .gitignore
+<pre>
 git add .
 </pre>
 
-<pre>
 # now, commit for new .gitignore to apply
+<pre>
 git commit -m ".gitignore is now working"
 </pre>
 
+# now push to the master branch
 <pre>
-#now push to the master branch
 git push origin master
 </pre>
