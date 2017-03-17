@@ -9,6 +9,7 @@ git rm -r --cached .
 <pre>
 # add all files as per new .gitignore
 git add .
+</pre>
 
 <pre>
 # now, commit for new .gitignore to apply
